@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AffectedCountries"
+    android:background="#F8F0F0"
+    android:orientation="vertical">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:id="@+id/editSearch"
+        android:layout_margin="10dp"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:paddingLeft="10dp"
+        android:drawableLeft="@drawable/ic_search_black_24dp"
+        android:background="@drawable/edit_shape"
+        android:drawablePadding="10dp"
+        android:hint="Search"
+        />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/country_listView"
+        android:layout_margin="10dp"
+        android:clickable="true"
+        />
+
+<!--        <com.leo.simplearcloader.SimpleArcLoader-->
+<!--            android:visibility="visible"-->
+<!--            android:id="@+id/loader1"-->
+<!--            android:layout_centerInParent="true"-->
+<!--            android:layout_width="60dp"-->
+<!--            android:layout_height="60dp"-->
+<!--            app:arc_style="simple_arc"-->
+<!--            />-->
+
+
+</LinearLayout>
